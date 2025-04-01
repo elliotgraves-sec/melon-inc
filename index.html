@@ -5,59 +5,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - Melon</title>
     <style>
+        /* Global Styles */
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #fafafa;
+            background-color: #f9fafb;
             color: #333;
         }
+        h1, h2 {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        /* Header Section */
         header {
-            background-color: #2D9CDB;
-            padding: 20px 40px;
-            text-align: center;
+            background-color: #3498db;
             color: white;
+            padding: 40px 30px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
         }
         header nav {
-            display: flex;
-            justify-content: center;
-            margin-top: 10px;
+            margin-top: 20px;
         }
         header nav a {
             color: white;
-            margin: 0 20px;
+            margin: 0 30px;
             text-decoration: none;
-            font-size: 16px;
+            font-size: 1.1em;
+            letter-spacing: 1px;
+            transition: color 0.3s ease;
         }
         header nav a:hover {
-            text-decoration: underline;
+            color: #f39c12;
         }
+
+        /* Main Section */
         main {
-            max-width: 1000px;
-            margin: 20px auto;
-            padding: 30px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 50px 40px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
         }
-        h1 {
-            color: #2D9CDB;
-            font-size: 2.5em;
+        main:hover {
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
         }
+
         h2 {
-            color: #2D9CDB;
-            font-size: 2em;
+            color: #3498db;
+            font-size: 2.5em;
+            margin-bottom: 20px;
         }
         p {
             line-height: 1.8;
-            font-size: 16px;
+            font-size: 1.1em;
+            color: #555;
+            margin-bottom: 20px;
         }
+        a {
+            color: #3498db;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #f39c12;
+        }
+
+        /* Team Section */
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin: 20px 0;
+        }
+        li {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        /* Footer Section */
         footer {
-            text-align: center;
-            padding: 15px;
-            background-color: #2D9CDB;
+            background-color: #3498db;
             color: white;
-            margin-top: 30px;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 40px;
         }
     </style>
 </head>
@@ -74,20 +113,20 @@
 <main id="about-us">
     <h2>About Us</h2>
     <p>
-        At Melon, our mission is to provide cutting-edge security solutions while fostering a transparent and collaborative environment. We specialize in DevSecOps, ensuring that security is integrated throughout the development lifecycle to mitigate risks and safeguard our clients' data.
+        At Melon, we strive to provide innovative security solutions with a focus on transparency and collaboration. Our expertise lies in DevSecOps, ensuring that security is integrated seamlessly into the development process to mitigate risks and safeguard our clients' data.
     </p>
     <p>
-        One of our key team members, <strong>Elliot Graves</strong>, was a former security engineer who played a pivotal role in some of our most critical security initiatives. Elliot's work, particularly his commitment to uncovering hidden threats, was invaluable. However, Elliot's departure was shrouded in mystery, and rumors began to circulate about a discovery he had made just before leaving the company.
+        A key figure in our journey was <strong>Elliot Graves</strong>, a former security engineer who played a critical role in some of our most important security initiatives. His attention to detail and commitment to uncovering hidden vulnerabilities was unmatched. However, Elliot's departure was shrouded in mystery, sparking rumors about a discovery he made just before he left the company.
     </p>
     <p>
-        Elliot always advocated for proactive transparency, believing that knowledge should be shared for the greater good. Despite leaving the company, we believe some of his findings may still be relevant today. For those interested, we encourage you to look into Elliot's past work—it could reveal something others might have overlooked. You can find his GitHub profile <a href="https://github.com/elliotgraves-sec" target="_blank">here</a>.
+        Elliot was an advocate for transparency and always believed that the truth should come to light. Though no longer part of the team, some of his findings remain relevant. We invite you to explore his past work, as it may reveal something others overlooked. You can find his GitHub profile <a href="https://github.com/elliotgraves-sec" target="_blank">here</a>.
     </p>
 </main>
 
 <main id="team">
     <h2>Our Team</h2>
     <p>
-        Our DevSecOps team is a group of highly skilled professionals committed to safeguarding the integrity of our client's systems. While we can't always disclose our full team roster, some of our key members include:
+        At Melon, our DevSecOps team comprises skilled professionals who work tirelessly to secure the digital landscape. Although we can't always share all our team members publicly, here are a few key individuals who make a difference:
     </p>
     <ul>
         <li><strong>Sarah Mitchell</strong> - Head of Security Operations</li>
@@ -96,7 +135,7 @@
         <li><strong>Elliot Graves</strong> - Former Security Engineer</li>
     </ul>
     <p>
-        Despite Elliot's departure, his influence on our team and the security culture at Melon remains strong. His work has shaped much of our current security approach, and we continue to reflect on his legacy.
+        Even after his departure, Elliot’s impact on our team’s security culture is still felt. His legacy continues to influence the way we approach cybersecurity and proactive defense.
     </p>
 </main>
 
